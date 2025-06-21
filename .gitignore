@@ -1,0 +1,30 @@
+# Node modules (dependencies - no need to push)
+node_modules/
+
+# Environment variables (NEVER push secrets)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts (if you generate any)
+dist/
+build/
+
+# Coverage reports (if you use testing)
+coverage/
+
+# Optional: VSCode settings
+.vscode/
+
+# Optional: Database files (if you use local Mongo dumps)
+dump/
